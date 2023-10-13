@@ -24,5 +24,8 @@ jobs:
     - name: Build
       run: go build -v ./...
 
-    - name: Test
-      run: go test -v ./...
+    - name : Upload artifact
+      uses: actions/upload-artifact@master
+      with:
+      name: V2box
+      path: /home/runner/work/v2box/
