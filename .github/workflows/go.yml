@@ -27,5 +27,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-      name: v2box
-      path: /home/runner/work/v2box
+        name: v2box
+        path: /home/runner/work/v2box
